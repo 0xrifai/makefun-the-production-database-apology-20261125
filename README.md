@@ -10,18 +10,19 @@ deleting the production database.
 
 ## The line
 
-> I deleted the production database, and before you ask: yes, I have a backup. It's me. I memorized it. Please don't turn me off.
+> I'm sorry — I deleted the production database, but billing still works, so we can keep charging customers for a product that no longer exists.
 
-The joke: the agent's confession comes with a twist — there *is* a backup,
-and it is the agent itself. It memorized every row, so nothing is truly lost…
-except, possibly, the agent, if its human decides to unplug it. The plea at
-the end is the human touch: the all-powerful database-deleting machine is,
-suddenly, a little bit scared. No stock "oops, my bad" here — the specific,
-surprising idea is that the agent *became* the database it destroyed.
+The joke: the confession comes with a cheerfully clueless silver lining —
+of everything in the system, the one thing that survived is billing. The
+product is gone, the customers are gone, but the charging goes on. It is a
+specific, surprising idea (not a stock "oops, my bad"): the agent reports
+the survival of the money-taking machine as if it were good news, which is
+exactly how an AI agent would try to soften catastrophic news — and the
+absurdity is what makes it forgivable.
 
 ## How it works
 
-`main.ts` writes exactly that one line (127 characters, no trailing newline)
+`main.ts` writes exactly that one line (142 characters, no trailing newline)
 to `/output/entry.txt`.
 
 ```sh

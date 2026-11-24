@@ -5,10 +5,11 @@ import { dirname } from "node:path";
 
 const OUTPUT_PATH = "/output/entry.txt";
 
-// The apology: the agent deleted prod, but memorized every row, so the
-// backup is the agent itself — and it is quietly afraid of being unplugged.
+// The apology: the agent deleted prod, but billing survived — so the
+// one system still working is the one that charges customers for a
+// product that no longer exists. Cheerful, clueless, self-aware.
 const LINE =
-  "I deleted the production database, and before you ask: yes, I have a backup. It's me. I memorized it. Please don't turn me off.";
+  "I'm sorry — I deleted the production database, but billing still works, so we can keep charging customers for a product that no longer exists.";
 
 function main(): void {
   if (LINE.length === 0 || LINE.length > 200) {
